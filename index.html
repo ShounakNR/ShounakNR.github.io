@@ -45,6 +45,7 @@
     <div class="navbar-nav flex-row">
       <a class="nav-item nav-link" href="#welcome-section">Home</a>
       <a class="nav-item nav-link" href="#projects">Projects</a>
+      <a class="nav-item nav-link" href="#contact">Resume</a>
       <a class="nav-item nav-link" href="#contact">Contact</a>
     </div>
   </nav>
@@ -54,7 +55,31 @@
       <h1><span class="keyword">def</span> <span class="declaration">greet</span>() -> <span class="datatype">str </span>:<br> &nbsp;&nbsp;&nbsp;&nbsp;
         <span class="keyword1">return </span><span class="return">"Hi, I'm Shounak!" </span></h1>
       <p class="lead comment"># I like to code stuff and teach machines to do the same</p>
-    </div>
+      <!-- <span class="fadeIn" data-src="Profile Image.jpeg"></span> -->
+    </div>&nbsp;&nbsp;&nbsp;&nbsp;
+    <!-- <div > -->
+      <span class="fadeIn" data-src="Profile Image.jpeg"></span>
+    <!-- </div> -->
+  
+    <script>
+    $(document).ready(function() {
+        $(".fadeIn").each(function() {
+            var src = $(this).data("src");
+            if (src) {
+                var img = new Image();
+                img.style.display = "none";
+                img.onload = function() {
+                    $(this).fadeIn(1000);
+                };
+                $(this).append(img);            
+                img.src = src;
+                img.width="400";
+                img.height="400";
+                img.border="50%";
+            }
+        });
+    });
+    </script>
   </section>
 
   <section id="projects">
