@@ -6,11 +6,19 @@
   --background-color: #2b2b2b;
   --text-color: #a9b7c6;
 }
-/* .fadeIn{
-  height: 100%;
-  width: 100%;
-} */
+.img1{
+  border-color: rgba(8, 153, 40, 0.767);
+}
+.fadeIn{
+  border-radius: 100px;
+}
+h2 {
+  margin-top: 0.5rem;
+}
 
+section{
+  padding: 10px;
+}
 body {
   font-family: "Exo", sans-serif;
   font-display: fallback;
@@ -24,6 +32,7 @@ body {
 
 .jumbotron {
   height: 100vh;
+  margin-bottom: 2rem;
 }
 
 .return {
@@ -138,13 +147,9 @@ body {
   color: black;
 }
 
-.fa-free-code-camp {
-  background: #006400;
-  color: white;
-}
 
-.fa-twitter {
-  background: #55ACEE;
+.fa-linkedin {
+  background: rgb(5, 43, 99);
   color: white;
 }
 
