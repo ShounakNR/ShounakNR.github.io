@@ -6,6 +6,9 @@
   --background-color: #2b2b2b;
   --text-color: #a9b7c6;
 }
+.btn{
+  margin-bottom: 5px;
+}
 .img1{
   border-color: rgba(8, 153, 40, 0.767);
 }
